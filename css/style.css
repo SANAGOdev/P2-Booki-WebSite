@@ -1,0 +1,116 @@
+/*Font family*/
+
+@font-face {
+  font-family: "raleway";
+  src: url(/Raleway/Raleway-VariableFont_wght.ttf);
+}
+* {
+  font-family: "raleway";
+}
+/*============================================================*/
+
+/*Classes Flex*/
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*============================================================*/
+
+/*Classes nav*/
+
+.link2 {
+  color: black; 
+}
+
+.sizeLinks {
+  width: 30%;
+}
+.sizeLink {
+    width: 140px;
+    height: 99px;
+}
+.noneDeco {
+  text-decoration: none;
+}
+.borderNone{
+  border: none;
+}
+.sizeNav{
+  height: 100px;
+}
+
+.border {
+    border: 3px black solid;
+}
+.borderNav{
+    border-top: 1px #0065FC solid;
+}
+.borderTransp{
+  border-top: 1px transparent solid;
+}
+
+.colorBlue{
+  color: #0065FC;
+}
+.colorLightBlue{
+  color: #DEEBFF;
+}
+.colorGrey{
+  color: #F2F2F2;
+}
+.backBlue{
+  background-color: #0065FC;
+}
+.backLightBlue{
+  background-color: #DEEBFF;
+}
+.backGrey{
+  background-color: #F2F2F2;
+}
+.fontBold{
+  font-weight: bold;
+}
+
+/*============================================================*/
+/*Class Header*/
+
+.borderSearch{
+  width: 400px;
+  border-radius: 10px;
+  border: 0.5px solid #F2F2F2;
+}
+.iconeSize{
+  height: 50px;
+  width: 50px;
+  border-radius: 10px 0px 0px 10px;
+}
+.Search{
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+
+}
+.paddingSearch{
+  padding-left: 20px;
+}
+.buttonSearch{
+  width: 120px;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+}
