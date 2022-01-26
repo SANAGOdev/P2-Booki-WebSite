@@ -8,7 +8,6 @@
   font-family: "raleway";
 }
 /*============================================================*/
-
 /*Classes Flex*/
 
 .flexCenter {
@@ -45,85 +44,82 @@
 }
 
 /*============================================================*/
-
 /*Classes nav*/
 
 .sizeLinks {
   width: 30%;
 }
 .sizeLink {
-    width: 140px;
-    height: 99px;
+  width: 140px;
+  height: 99px;
 }
 .noneDeco {
   text-decoration: none;
 }
-.borderNone{
+.borderNone {
   border: none;
 }
-.sizeNav{
+.sizeNav {
   height: 100px;
 }
 
-
-.borderNav a{
+.borderNav a {
   color: black;
   padding: 32px;
   border-top: 3px solid transparent;
 }
 
-.borderNav a:hover{
-  color: #0065FC;
-  border-top-color: #0065FC;
+.borderNav a:hover {
+  color: #0065fc;
+  border-top-color: #0065fc;
 }
 
-.colorBlue{
-  color: #0065FC;
+.colorBlue {
+  color: #0065fc;
 }
-.colorLightBlue{
-  color: #DEEBFF;
+.colorLightBlue {
+  color: #deebff;
 }
-.colorGrey{
-  color: #F2F2F2;
+.colorGrey {
+  color: #f2f2f2;
 }
-.backBlue{
-  background-color: #0065FC;
+.backBlue {
+  background-color: #0065fc;
 }
-.backLightBlue{
-  background-color: #DEEBFF;
+.backLightBlue {
+  background-color: #deebff;
 }
-.backGrey{
-  background-color: #F2F2F2;
+.backGrey {
+  background-color: #f2f2f2;
 }
-.fontBold{
+.fontBold {
   font-weight: bold;
 }
 
 /*============================================================*/
 /*Class Header*/
 
-.borderSearch{
+.borderSearch {
   width: 400px;
   border-radius: 10px;
-  border: 0.5px solid #F2F2F2;
+  border: 0.5px solid #f2f2f2;
 }
-.iconeSize{
+.iconeSize {
   height: 50px;
   width: 50px;
   border-radius: 10px 0px 0px 10px;
 }
-.Search{
+.Search {
   height: 50px;
   width: 230px;
   font-size: 18px;
   color: black;
   font-weight: bold;
-
 }
-.paddingSearch{
+.paddingSearch {
   padding-left: 20px;
 }
-.buttonSearch{
+.buttonSearch {
   width: 120px;
   height: 50px;
   color: white;
@@ -131,71 +127,75 @@
   border-radius: 0px 10px 10px 0px;
 }
 
+/*============================================================*/
 /*classes Filtres*/
-.filtre{
+
+.filtre {
   display: flex;
   align-items: center;
 }
-.margFiltre{
+.margFiltre {
   margin-top: 50px;
   margin-bottom: 40px;
 }
-.margFiltreTitle{
+.margFiltreTitle {
   margin-right: 20px;
 }
-.filtreTextIcons{
-  border: 2px solid #F2F2F2;
+.filtreTextIcons {
+  border: 2px solid #f2f2f2;
   height: 50px;
   border-radius: 30px;
   margin-right: 20px;
 }
-.filtreTextIcons:hover > .filtreTexte{
-  color: #0065FC;
+.filtreTextIcons:hover > .filtreTexte {
+  color: #0065fc;
 }
-.filtreTextIcons:hover > .filtreIcons{
+.filtreTextIcons:hover > .filtreIcons {
   color: white;
-  background-color: #0065FC;
+  background-color: #0065fc;
 }
 
-.filtreTexte{
+.filtreTexte {
   height: 50px;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 0px 25px 25px 0px;
 }
-.filtreIcons{
+.filtreIcons {
   margin-left: -2px;
   border-radius: 25px;
   width: 52px;
   height: 52px;
-  color: #0065FC;
-  background-color: #DEEBFF;
+  color: #0065fc;
+  background-color: #deebff;
 }
 
+/*============================================================*/
 /*classes Information*/
 
-.info{
+.info {
   display: flex;
   align-items: center;
 }
-.parentIcon{
+.parentIcon {
   width: 20px;
   height: 20px;
-  border: 2px solid #F2F2F2;
+  border: 2px solid #f2f2f2;
   border-radius: 25px;
   margin-right: 5px;
 }
 
+/*============================================================*/
 /*classes Hébergements*/
 
-.sizeHebergements{
+.sizeHebergements {
   flex: 2;
   height: 650px;
   margin-right: 20px;
   border-radius: 10px;
 }
 
-.imgHebergement1{
+.imgHebergement1 {
   background-image: url(/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -204,7 +204,7 @@
   height: 120px;
 }
 
-.imgHebergement2{
+.imgHebergement2 {
   background-image: url(/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -213,7 +213,7 @@
   height: 120px;
 }
 
-.imgHebergement3{
+.imgHebergement3 {
   background-image: url(/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -222,7 +222,7 @@
   height: 120px;
 }
 
-.imgHebergement4{
+.imgHebergement4 {
   background-image: url(/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -231,7 +231,7 @@
   height: 120px;
 }
 
-.imgHebergement5{
+.imgHebergement5 {
   background-image: url(/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -240,7 +240,7 @@
   height: 120px;
 }
 
-.imgHebergement6{
+.imgHebergement6 {
   background-image: url(/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -249,61 +249,61 @@
   height: 120px;
 }
 
-.blocHebergement{
+.blocHebergement {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.carreHebergements{
+.carreHebergements {
   width: 30%;
   height: auto;
   background-color: white;
   padding: 1%;
   border-radius: 20px;
-
 }
 
-.bloc1{
+.bloc1 {
   margin-bottom: 10px;
 }
-.bloc2{
+.bloc2 {
   margin-top: 10px;
 }
-.carreDesc{
+.carreDesc {
   width: 90%;
 }
 
+/*============================================================*/
 /*classes populaires*/
 
-.sizePopulaire{
+.sizePopulaire {
   flex: 1;
   height: 650px;
   margin-left: 20px;
   border-radius: 10px;
 }
 
-.blocPopulaire{
+.blocPopulaire {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.carrePopulaire{
+.carrePopulaire {
   background-color: white;
   height: auto;
   padding: 1% 0 1% 1%;
   border-radius: 20px;
 }
 
-.blocPopulaire12{
+.blocPopulaire12 {
   margin-bottom: 22px;
 }
 
-.carreDescPopulaire{
+.carreDescPopulaire {
   width: 60%;
   padding-left: 5%;
 }
 
-.imgPopulaire1{
+.imgPopulaire1 {
   background-image: url(/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -312,7 +312,7 @@
   height: 160px;
 }
 
-.imgPopulaire2{
+.imgPopulaire2 {
   background-image: url(/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -321,11 +321,110 @@
   height: 160px;
 }
 
-.imgPopulaire3{
+.imgPopulaire3 {
   background-image: url(/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
   width: 35%;
   height: 160px;
+}
+
+/*============================================================*/
+/*classes activité*/
+
+.activite {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blocActivite {
+  width: 100%;
+  height: 600px;
+}
+
+.blocActivite2356 {
+  width: 23%;
+  height: 600px;
+}
+
+/*reglages bloc*/
+
+.carreActivite {
+  width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.carreActivite2356{
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+/*end reglages bloc*/
+.heightTitle{
+  height: 70px;
+}
+
+.titreActivite{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  width: 95%;
+}
+
+.imgActivite1 {
+  background-image: url(/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgActivite2 {
+  background-image: url(/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgActivite3 {
+  background-image: url(/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgActivite4 {
+  background-image: url(/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgActivite5 {
+  background-image: url(/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 175px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgActivite6 {
+  background-image: url(/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 225px;
+  border-radius: 15px 15px 0 0;
 }
