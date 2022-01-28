@@ -157,9 +157,11 @@
   margin-right: 20px;
 }
 .filtreTextIcons:hover > .filtreTexte {
+  cursor: pointer;
   color: #0065fc;
 }
 .filtreTextIcons:hover > .filtreIcons {
+  cursor: pointer;
   color: white;
   background-color: #0065fc;
 }
