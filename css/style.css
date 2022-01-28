@@ -131,6 +131,11 @@
   border-radius: 0px 10px 10px 0px;
 }
 
+.buttonSearch:hover{
+  color: #0065fc;
+  background-color: #f2f2f2;
+}
+
 /*============================================================*/
 /*classes Filtres*/
 
@@ -264,6 +269,12 @@
   background-color: white;
   padding: 1%;
   border-radius: 20px;
+  transition: all 150ms ease;
+}
+
+.carreHebergements:hover{
+  cursor: pointer;
+  transform: scale(1.03);
 }
 
 .bloc1 {
@@ -296,6 +307,12 @@
   height: auto;
   padding: 1% 0 1% 1%;
   border-radius: 20px;
+  transition: all 150ms ease;
+}
+
+.carrePopulaire:hover{
+  cursor: pointer;
+  transform: scale(1.03);
 }
 
 .blocPopulaire12 {
@@ -358,12 +375,24 @@
   width: 23%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
+  transition: all 150ms ease;
+}
+
+.carreActivite:hover{
+  cursor: pointer;
+  transform: scale(1.03);
 }
 
 .carreActivite2356{
   width: 100%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
+  transition: all 150ms ease;
+}
+
+.carreActivite2356:hover{
+  cursor: pointer;
+  transform: scale(1.03);
 }
 
 /*end reglages bloc*/
@@ -433,7 +462,8 @@
   border-radius: 15px 15px 0 0;
 }
 
-/*footer*/
+/*============================================================*/
+/*classes footer*/
 
 .footer{
   height: 300px;
