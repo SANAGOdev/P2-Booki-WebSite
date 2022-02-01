@@ -1,9 +1,7 @@
 /*Font family*/
 
-@font-face {
-  font-family: "raleway";
-  src: url(/Raleway/Raleway-VariableFont_wght.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
   font-family: "raleway";
 }
@@ -207,7 +205,7 @@
 }
 
 .imgHebergement1 {
-  background-image: url(/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+  background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
@@ -216,7 +214,7 @@
 }
 
 .imgHebergement2 {
-  background-image: url(/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+  background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
@@ -225,7 +223,7 @@
 }
 
 .imgHebergement3 {
-  background-image: url(/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+  background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
@@ -234,7 +232,7 @@
 }
 
 .imgHebergement4 {
-  background-image: url(/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+  background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
@@ -243,7 +241,7 @@
 }
 
 .imgHebergement5 {
-  background-image: url(/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+  background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
@@ -252,7 +250,7 @@
 }
 
 .imgHebergement6 {
-  background-image: url(/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
@@ -327,7 +325,7 @@
 }
 
 .imgPopulaire1 {
-  background-image: url(/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+  background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
@@ -336,7 +334,7 @@
 }
 
 .imgPopulaire2 {
-  background-image: url(/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+  background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
@@ -345,7 +343,7 @@
 }
 
 .imgPopulaire3 {
-  background-image: url(/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+  background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
@@ -411,7 +409,7 @@
 }
 
 .imgActivite1 {
-  background-image: url(/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+  background-image: url(../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -420,7 +418,7 @@
 }
 
 .imgActivite2 {
-  background-image: url(/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+  background-image: url(../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -429,7 +427,7 @@
 }
 
 .imgActivite3 {
-  background-image: url(/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+  background-image: url(../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -438,7 +436,7 @@
 }
 
 .imgActivite4 {
-  background-image: url(/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+  background-image: url(../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -447,7 +445,7 @@
 }
 
 .imgActivite5 {
-  background-image: url(/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+  background-image: url(../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -456,7 +454,7 @@
 }
 
 .imgActivite6 {
-  background-image: url(/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+  background-image: url(../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
