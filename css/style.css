@@ -481,3 +481,27 @@
 .margeBlocFooter3{
   margin-right: 15%;
 }
+
+/*============================================================*/
+/*responsivité tablette*/
+
+@media screen and (max-width: 1280px){
+  #HebergementAndActivite{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .blocHebergement{
+    display: flex;
+    width: 95%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+  }
+  .sizePopulaire{
+    width: 95%;
+    padding-bottom: 5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+  }
+}
+
