@@ -45,7 +45,7 @@
 /*Classes nav*/
 
 .sizeLinks {
-  width: 30%;
+  width: 100%;
 }
 .sizeLink {
   width: 140px;
@@ -100,6 +100,10 @@
 
 /*============================================================*/
 /*Class Header*/
+
+.fas.fa-search{
+  visibility: hidden;
+}
 
 .borderSearch {
   width: 400px;
@@ -490,6 +494,11 @@
     display: flex;
     flex-direction: column-reverse;
   }
+  .filtre{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .blocHebergement{
     display: flex;
     width: 95%;
@@ -505,3 +514,61 @@
   }
 }
 
+/*responsivité telephone*/
+@media screen and (max-width: 768px){
+
+  #navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #mainTitle{
+    text-align: start;
+  }
+  .sizeLinks{
+    width: 100%;
+    flex-direction: row;
+  }
+  .mobileNav{
+    width: 100%;
+  }
+  .sizeNav{
+    height: auto;
+  }
+  .sizeLinkMobile{
+    width: 50%;
+    border-top: 0;
+    border-bottom: 5px solid #f2f2f2;
+  }
+  .sizeLinkMobile:hover{
+    border-top: 0;
+    border-bottom: 5px solid #0065fc;
+  }
+  .borderNav a:hover{
+    color: #0065fc;
+  }
+  .borderNav a{
+    border-top: none;
+  }
+  .fas.fa-search{
+    visibility: visible;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  #rechercher{
+    visibility: hidden;
+  }
+  .buttonSearch{
+    width: 50px;
+    border-radius: 10px;
+  }
+  .borderSearch{
+    justify-content: space-between;
+    width: auto;
+  }
+  .searchIconSize{
+    height: 50px;
+    width: 50px;
+
+  }
+}
