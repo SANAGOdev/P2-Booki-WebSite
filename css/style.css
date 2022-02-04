@@ -1,6 +1,6 @@
 /*Font family*/
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
   font-family: "raleway";
@@ -72,7 +72,7 @@
   border-top-color: #0065fc;
 }
 
-.colorBlack{
+.colorBlack {
   color: black;
 }
 
@@ -101,7 +101,7 @@
 /*============================================================*/
 /*Class Header*/
 
-.fas.fa-search{
+.fas.fa-search {
   visibility: hidden;
 }
 
@@ -133,7 +133,7 @@
   border-radius: 0px 10px 10px 0px;
 }
 
-.buttonSearch:hover{
+.buttonSearch:hover {
   color: #0065fc;
   background-color: #f2f2f2;
 }
@@ -276,7 +276,7 @@
   transition: all 150ms ease;
 }
 
-.carreHebergements:hover{
+.carreHebergements:hover {
   cursor: pointer;
   transform: scale(1.03);
 }
@@ -314,7 +314,7 @@
   transition: all 150ms ease;
 }
 
-.carrePopulaire:hover{
+.carrePopulaire:hover {
   cursor: pointer;
   transform: scale(1.03);
 }
@@ -382,29 +382,30 @@
   transition: all 150ms ease;
 }
 
-.carreActivite:hover{
+.carreActivite:hover {
   cursor: pointer;
   transform: scale(1.03);
 }
 
-.carreActivite2356{
+.carreActivite2356 {
   width: 100%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
   transition: all 150ms ease;
 }
 
-.carreActivite2356:hover{
+.carreActivite2356:hover {
   cursor: pointer;
   transform: scale(1.03);
 }
 
 /*end reglages bloc*/
-.heightTitle{
+
+.heightTitle {
   height: 70px;
 }
 
-.titreActivite{
+.titreActivite {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -469,43 +470,43 @@
 /*============================================================*/
 /*classes footer*/
 
-.footer{
+.footer {
   height: 300px;
   margin-top: 100px;
 }
 
-.sizeFooterBloc{
+.sizeFooterBloc {
   height: 150px;
 }
 
-.margeBlocFooter1{
+.margeBlocFooter1 {
   margin-left: 5%;
 }
 
-.margeBlocFooter3{
+.margeBlocFooter3 {
   margin-right: 15%;
 }
 
 /*============================================================*/
 /*responsivité tablette*/
 
-@media screen and (max-width: 1280px){
-  #HebergementAndActivite{
+@media screen and (max-width: 1280px) {
+  #HebergementAndActivite {
     display: flex;
     flex-direction: column-reverse;
   }
-  .filtre{
+  .filtre {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .blocHebergement{
+  .blocHebergement {
     display: flex;
     width: 95%;
     margin-right: 2.5%;
     margin-left: 2.5%;
   }
-  .sizePopulaire{
+  .sizePopulaire {
     width: 95%;
     padding-bottom: 5%;
     margin-right: 2.5%;
@@ -514,61 +515,82 @@
   }
 }
 
+/*============================================================*/
 /*responsivité telephone*/
-@media screen and (max-width: 768px){
 
-  #navigation{
+@media screen and (max-width: 768px) {
+  #navigation {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #mainTitle{
+  #mainTitle {
     text-align: start;
   }
-  .sizeLinks{
+  .sizeLinks {
     width: 100%;
     flex-direction: row;
   }
-  .mobileNav{
+  .mobileNav {
     width: 100%;
   }
-  .sizeNav{
+  .sizeNav {
     height: auto;
   }
-  .sizeLinkMobile{
+  .sizeLinkMobile {
     width: 50%;
     border-top: 0;
     border-bottom: 5px solid #f2f2f2;
   }
-  .sizeLinkMobile:hover{
+  .sizeLinkMobile:hover {
     border-top: 0;
     border-bottom: 5px solid #0065fc;
   }
-  .borderNav a:hover{
+  .borderNav a:hover {
     color: #0065fc;
   }
-  .borderNav a{
+  .borderNav a {
     border-top: none;
   }
-  .fas.fa-search{
+  .fas.fa-search {
     visibility: visible;
     padding: 15px;
     border-radius: 10px;
   }
-  #rechercher{
+  #rechercher {
     visibility: hidden;
   }
-  .buttonSearch{
+  .buttonSearch {
     width: 50px;
     border-radius: 10px;
   }
-  .borderSearch{
+  .borderSearch {
     justify-content: space-between;
     width: auto;
   }
-  .searchIconSize{
+  .searchIconSize {
     height: 50px;
     width: 50px;
+  }
+  .Search {
+    width: 100%;
+  }
 
+  /*============================================================*/
+  /*classes filtres*/
+
+  .margFiltre {
+    margin: 0;
+  }
+  .margFiltreTitle{
+    margin: 0;
+  }
+
+  .mobileFiltre{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .mobileFiltreMarg{
+    margin-bottom: 10px;
   }
 }
