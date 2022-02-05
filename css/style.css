@@ -474,6 +474,9 @@
   height: 300px;
   margin-top: 100px;
 }
+.footer a:hover{
+  color: #0065fc;
+}
 
 .sizeFooterBloc {
   height: 150px;
@@ -592,5 +595,8 @@
   }
   .mobileFiltreMarg{
     margin-bottom: 10px;
+  }
+  .iconeSize{
+    width: 20%;
   }
 }
