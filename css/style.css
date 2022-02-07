@@ -532,6 +532,7 @@
     padding: 0;
   }
   #mainTitle {
+    margin-left: 5%;
     text-align: start;
   }
   .sizeLinks {
@@ -574,6 +575,7 @@
   .borderSearch {
     justify-content: space-between;
     width: auto;
+    margin-left: 5%;
   }
   .searchIconSize {
     height: 50px;
@@ -592,7 +594,9 @@
   .margFiltreTitle{
     margin: 0;
   }
-
+  .mobileMargFiltre{
+    margin-left: 5%;
+  }
   .mobileFiltre{
     flex-direction: column;
     align-items: flex-start;
@@ -602,6 +606,9 @@
   }
   .iconeSize{
     width: 20%;
+  }
+  .info{
+    margin-left: 5%;
   }
 
 /*============================================================*/
