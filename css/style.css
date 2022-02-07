@@ -510,10 +510,11 @@
     margin-left: 2.5%;
   }
   .sizePopulaire {
-    width: 95%;
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
     padding-bottom: 5%;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
+    padding-right: 5%;
     margin-bottom: 5%;
   }
 }
@@ -529,6 +530,7 @@
   }
   html,
   body {
+    width: 100%;
     margin: 0;
     padding: 0;
   }
@@ -576,6 +578,7 @@
   .borderSearch {
     justify-content: space-between;
     width: auto;
+    margin-right: 5%;
     margin-left: 5%;
   }
   .searchIconSize {
@@ -597,12 +600,17 @@
   }
   .mobileMargFiltre {
     margin-left: 5%;
+    margin-right: 5%;
+  }
+  .filtreMobileSize{
+    width: 100%;
   }
   .mobileFiltre {
     flex-direction: column;
     align-items: flex-start;
   }
   .mobileFiltreMarg {
+    margin-right: 0;
     margin-bottom: 10px;
   }
   .iconeSize {
@@ -627,10 +635,11 @@
   }
 
   .sizeHebergements {
-    width: 95%;
+    width: 90%;
     padding-bottom: 5%;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 5%;
     background-color: white;
   }
   .carreHebergements {
