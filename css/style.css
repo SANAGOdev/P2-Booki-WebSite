@@ -527,6 +527,10 @@
     flex-direction: column;
     align-items: center;
   }
+  html,body{
+    margin: 0;
+    padding: 0;
+  }
   #mainTitle {
     text-align: start;
   }
@@ -579,8 +583,8 @@
     width: 100%;
   }
 
-  /*============================================================*/
-  /*classes filtres*/
+/*============================================================*/
+/*classes filtres*/
 
   .margFiltre {
     margin: 0;
@@ -599,6 +603,9 @@
   .iconeSize{
     width: 20%;
   }
+
+/*============================================================*/
+/*classes hebergements*/
 
   .bloc1{
     display: flex;
@@ -624,6 +631,80 @@
     margin-right: 2.5%;
     margin-left: 2.5%;
     margin-bottom: 10%;
-    box-shadow: 5px 5px 5px 5px #f2f2f2;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+  }
+
+/*============================================================*/
+/*classes activité*/
+
+  .imgActivite1{
+    height: 200px;
+  }
+  .imgActivite2{
+    height: 200px;
+  }
+  .imgActivite3{
+    height: 200px;
+  }
+  .imgActivite4{
+    height: 200px;
+  }
+  .imgActivite5{
+    height: 200px;
+  }
+  .imgActivite6{
+    height: 200px;
+  }
+  .blocActivite{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+  }
+  .blocActivite2356{
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .carreActivite{
+    display: flex;
+    width: 95%;
+    height: 250px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 10%;
+  }
+  .carreActivite2356{
+    display: flex;
+    width: 95%;
+    height: 250px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 10%;
+  }
+/*============================================================*/
+/*classes footers*/
+  .footer{
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .margeBlocFooter1{
+    margin: 0;
+    margin-bottom: 10%;
+  }
+  .margeBlocFooter2{
+    margin-bottom: 10%;
+  }
+  .margeBlocFooter3{
+    margin: 0;
+    margin-bottom: 10%;
+  }
+  .sizeFooterBloc{
+    height: auto;
+    margin-left: 5%;
+    justify-content: initial;
   }
 }
