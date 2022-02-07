@@ -5,6 +5,9 @@
 * {
   font-family: "raleway";
 }
+body{
+  font-size: 13px;
+}
 /*============================================================*/
 /*Classes Flex*/
 
@@ -514,7 +517,7 @@
     margin-left: 0;
     margin-right: 0;
     padding-bottom: 5%;
-    padding-right: 5%;
+    padding-right: 4%;
     margin-bottom: 5%;
   }
 }
@@ -639,7 +642,7 @@
     padding-bottom: 5%;
     margin-right: 0;
     margin-left: 0;
-    padding-right: 5%;
+    padding-right: 4%;
     background-color: white;
   }
   .carreHebergements {
@@ -654,6 +657,9 @@
   /*============================================================*/
   /*classes activité*/
 
+  #idActivite{
+    margin-left: 5%;
+  }
   .imgActivite1 {
     height: 200px;
   }
@@ -685,18 +691,16 @@
   }
   .carreActivite {
     display: flex;
-    width: 95%;
-    height: 250px;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
+    width: 90%;
+    margin-right: 0;
+    margin-left: 0;
     margin-bottom: 10%;
   }
   .carreActivite2356 {
     display: flex;
-    width: 95%;
-    height: 250px;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
+    width: 90%;
+    margin-right: 0;
+    margin-left: 5%;
     margin-bottom: 10%;
   }
   /*============================================================*/
