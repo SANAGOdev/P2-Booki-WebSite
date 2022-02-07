@@ -5,9 +5,7 @@
 * {
   font-family: "raleway";
 }
-body{
-  font-size: 13px;
-}
+
 /*============================================================*/
 /*Classes Flex*/
 
@@ -530,6 +528,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  body{
+    font-size: 13px;
   }
   html,
   body {
