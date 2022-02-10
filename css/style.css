@@ -602,6 +602,9 @@
   .margFiltreTitle {
     margin: 0;
   }
+  .infoMarg{
+    margin-right: 5%;
+  }
   .mobileMargFiltre {
     margin-left: 5%;
     margin-right: 5%;
@@ -682,26 +685,31 @@
   .blocActivite {
     display: flex;
     height: auto;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
     flex-direction: column;
   }
   .blocActivite2356 {
     display: flex;
     height: auto;
-    width: 100%;
+    width: 95%;
+    margin-right: 5%;
+    margin-left: 5%;
     flex-direction: column;
   }
   .carreActivite {
     display: flex;
-    width: 90%;
+    width: 95%;
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 10%;
   }
   .carreActivite2356 {
     display: flex;
-    width: 90%;
+    width: 100%;
     margin-right: 0;
-    margin-left: 5%;
+    margin-left: 0;
     margin-bottom: 10%;
   }
   /*============================================================*/
